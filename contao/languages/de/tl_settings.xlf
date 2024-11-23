@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2">
+    <file target-language="de" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="tl_settings.easyrechtssicher_legend">
+                <target>easyRechtssicher</target>
+            </trans-unit>
+            <trans-unit id="tl_settings.license_domain.0">
+				<target>Lizenzdomain</target>
+			</trans-unit>
+			<trans-unit id="tl_settings.license_domain.1">
+				<target>Hier sehen Sie die Domain, unter dem Ihre Webseite gerade läuft. Hierfür benötigen Sie den API-Schlüssel.</target>
+			</trans-unit>
+            <trans-unit id="tl_settings.apikey.0">
+                <target>API-Schlüssel</target>
+            </trans-unit>
+            <trans-unit id="tl_settings.apikey.1">
+				<target>Geben Sie Ihren API-Lizenzschlüssel ein.</target>
+			</trans-unit>
+
+			<trans-unit id="ERR.invalid_api_key">
+				<target>Der API-Key für die Domain %s ist uns nicht bekannt.</target>
+			</trans-unit>
+        </body>
+    </file>
+</xliff>

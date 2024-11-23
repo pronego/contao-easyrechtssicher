@@ -1,0 +1,9 @@
+<div {{ cssID }} class="{{ class }}">
+    {% block headline %}
+        {% if headline %}
+            <h2 class="mod_headline">{{ headline }}</h2>
+        {% endif %}
+    {% endblock %}
+
+    {% if output %}{{ output|raw }}{% endif %}
+</div>

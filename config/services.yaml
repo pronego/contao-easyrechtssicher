@@ -1,0 +1,20 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  # Activate Autodiscovery
+  Pronego\EasyrechtssicherBundle\:
+    resource: '../src'
+    exclude: '../src/{ContaoManager,DependencyInjection}'
+
+  # Explicitly configure the Frontend Module Controller
+  Pronego\EasyrechtssicherBundle\Controller\FrontendModule\EasyrechtssicherFrontendModuleController:
+    public: true
+    # 1. Disable autowiring
+    autowire: false
+    # 2. Specify arguments to inject
+    arguments:
+      $apiService: '@Pronego\EasyrechtssicherBundle\Service\ApiService'
+    tags:
+      - { name: contao.frontend_module, module: easyrechtssicher, category: miscellaneous, template: "mod_easyrechtssicher" }

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2">
+<file>
+<body>
+	<!-- Frontend module information -->
+    <trans-unit id="FMD.easyrechtssicher.0">
+        <target>easyRechtssicher</target>
+    </trans-unit>
+    <trans-unit id="FMD.easyrechtssicher.1">
+		<target>DSGVO-konforme aktuelle Texte für Datenschutz, Impressum und Widerrufsbelehrung.</target>
+	</trans-unit>
+
+    <!-- Fields -->
+    <trans-unit id="tl_module.siteType.0">
+        <target>Auswahl des Seitentyps</target>
+    </trans-unit>
+    <trans-unit id="tl_module.siteType.1">
+        <target>Wählen Sie die Art der Seite zur Abfrage über die easyRechtssicher-API.</target>
+    </trans-unit>
+    <trans-unit id="tl_module.siteType_options.dse">
+		<target>Datenschutzerklärung</target>
+	</trans-unit>
+	<trans-unit id="tl_module.siteType_options.imp">
+		<target>Impressum</target>
+	</trans-unit>
+	<trans-unit id="tl_module.siteType_options.wbl">
+		<target>Widerrufsbelehrung</target>
+	</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2">
+    <file target-language="en" datatype="plaintext" original="file.ext">
+        <body>
+			<trans-unit id="tl_settings.easyrechtssicher_legend">
+                <target>easyRechtssicher</target>
+            </trans-unit>
+            <trans-unit id="tl_settings.license_domain">
+                <target>License Domain</target>
+            </trans-unit>
+            <trans-unit id="tl_settings.apikey">
+                <target>API Key</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
