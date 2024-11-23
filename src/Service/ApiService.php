@@ -34,16 +34,17 @@ class ApiService
      *
      * @param string $siteType The site type to query (imp=Impressum|dse=Datenschutzerklärung|wbl=Widerrufsbelehrung).
      * @param string|null $lang The language to use (default: 'de').
+     * @param string|null $apiKey The API key to use (default: read from Config).
      *
      * @return string The full API URL.
      */
-    public function generateApiUrl(string $siteType, ?string $lang = null): string
+    public function generateApiUrl(string $siteType, ?string $lang = null, ?string $apiKey = null): string
     {
         return strtr($this->apiUrlTemplate, [
             '{type}' => $siteType,
-            '{apikey}' => Config::get('apikey'),
+            '{apikey}' => $apiKey ?? Config::get('apikey'),
             '{lang}' => $lang ?? 'de',
-            '{domain}' => $domain ?? Environment::get('host'),
+            '{domain}' => Environment::get('host'),
         ]);
     }
 

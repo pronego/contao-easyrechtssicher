@@ -32,7 +32,7 @@ $GLOBALS['TL_DCA']['tl_settings']['fields']['apikey'] = [
         function ($apiKeyValue) {
             // Load current domain
             $apiService = new ApiService(HttpClient::create());
-            $apiUrl = $apiService->generateApiUrl('imp', $apiKeyValue);
+            $apiUrl = $apiService->generateApiUrl('imp', null, $apiKeyValue);
 
             $response = $apiService->callApi($apiUrl);
 
@@ -41,7 +41,7 @@ $GLOBALS['TL_DCA']['tl_settings']['fields']['apikey'] = [
             {
                 $message = sprintf($GLOBALS['TL_LANG']['ERR']['invalid_api_key'], Environment::get('host'));
                 Message::addError($message);
-                throw new \Exception($message);
+                throw new \RuntimeException($message);
             }
 
             return $apiKeyValue;
