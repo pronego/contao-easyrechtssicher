@@ -2,15 +2,25 @@
 <xliff version="1.2">
     <file target-language="en" datatype="plaintext" original="file.ext">
         <body>
-			<trans-unit id="tl_settings.easyrechtssicher_legend">
+            <trans-unit id="tl_settings.easyrechtssicher_legend">
                 <target>easyRechtssicher</target>
             </trans-unit>
-            <trans-unit id="tl_settings.license_domain">
-                <target>License Domain</target>
-            </trans-unit>
-            <trans-unit id="tl_settings.apikey">
+            <trans-unit id="tl_settings.license_domain.0">
+				<target>License Domain</target>
+			</trans-unit>
+			<trans-unit id="tl_settings.license_domain.1">
+				<target>Here you can see the domain under which your website is currently running. You will need the API key for this.</target>
+			</trans-unit>
+            <trans-unit id="tl_settings.apikey.0">
                 <target>API Key</target>
             </trans-unit>
+            <trans-unit id="tl_settings.apikey.1">
+				<target>Enter your API license key.</target>
+			</trans-unit>
+
+			<trans-unit id="ERR.invalid_api_key">
+				<target>The API key for the domain %s is unknown to us.</target>
+			</trans-unit>
         </body>
     </file>
 </xliff>

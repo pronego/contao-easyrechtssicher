@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2">
+<file>
+<body>
+	<!-- Frontend module information -->
+    <trans-unit id="FMD.easyrechtssicher.0">
+        <target>easyRechtssicher</target>
+    </trans-unit>
+    <trans-unit id="FMD.easyrechtssicher.1">
+		<target>GDPR-compliant up-to-date texts for privacy policies, legal notices, and cancellation policies.</target>
+	</trans-unit>
+
+    <!-- Fields -->
+    <trans-unit id="tl_module.siteType.0">
+        <target>Selection of Page Type</target>
+    </trans-unit>
+    <trans-unit id="tl_module.siteType.1">
+        <target>Select the type of page to query via the easyRechtssicher API.</target>
+    </trans-unit>
+    <trans-unit id="tl_module.siteType_options.dse">
+		<target>Privacy Policy</target>
+	</trans-unit>
+	<trans-unit id="tl_module.siteType_options.imp">
+		<target>Legal Notice</target>
+	</trans-unit>
+	<trans-unit id="tl_module.siteType_options.wbl">
+		<target>Cancellation Policy</target>
+	</trans-unit>
+</body>
