@@ -5,7 +5,11 @@
     "license": "LGPL-3.0-or-later",
     "authors": [
         {
-            "name": "Dr. Manuel Lamotte-Schubert | PRONEGO",
+            "name": "Dr. Manuel Lamotte-Schubert",
+            "homepage": "https://www.pronego.com"
+        },
+        {
+            "name": "PRONEGO",
             "homepage": "https://www.pronego.com"
         }
     ],
