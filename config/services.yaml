@@ -16,5 +16,3 @@ services:
     # 2. Specify arguments to inject
     arguments:
       $apiService: '@Pronego\EasyrechtssicherBundle\Service\ApiService'
-    tags:
-      - { name: contao.frontend_module, module: easyrechtssicher, category: miscellaneous, template: "mod_easyrechtssicher" }
